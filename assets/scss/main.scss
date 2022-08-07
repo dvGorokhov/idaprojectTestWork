@@ -1,12 +1,15 @@
 @font-face {
-  font-family: "Source Sans Pro";
-  src: local("Source Sans Pro"), url("/assets/fonts/SourceSansPro-Regular.ttf") format("truetype");
-}
-
-body {
-  margin: 0;
+  font-family: 'SourceSansPro';
+  src: local('SourceSansPro'),
+    url('/assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
 a {
   text-decoration: none;
+}
+
+body,
+h1,
+p {
+  margin: 0;
 }
